@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="first.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ba8ff9b8cc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>5 Days of Daily Forecasts</h1>
+    <header>
+      <!--<input class="button3" type="button" value="Favorite" onclick="location.href='page.html'" >
+      <input class="button3" type="button" value="Home">-->
+    </header>
+    <input
+      id="searchInput"
+      onsearch="fetchWeatherData()"
+      value="Write the city and press enter"
+      type="search"
+      class="search"
+    />
+    <!--button id="search" onclick="fetchWeatherData('328328')">search</button-->
+    <div class="divBig">
+      <div class="divSt2">
+        <div class="ab">
+          <i class="far fa-square button4"></i>
+          <!--<input class="button" type="button" value="Add To Favorite" onclick="addCity()">-->
+          <i class="far fa-heart fa-xs button2"></i>
+        </div>
+      </div>
+      <h1 id="div">Whice is City?</h1>
+      <div class="divSt">
+        <div class="divDay" id="div1"></div>
+        <div class="divDay" id="div2"></div>
+        <div class="divDay" id="div3"></div>
+        <div class="divDay" id="div4"></div>
+        <div class="divDay" id="div5"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./first.js"></script>
+</html>
